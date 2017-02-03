@@ -148,3 +148,31 @@ ul ol,
 ol ol {
   margin-bottom: 0;
 }
+
+.list-unstyled{
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline{
+  padding:0;
+  list-style:none;
+  margin-left: -5px;
+}
+.list-inline li{
+  display: inline-block;
+  padding:0 5px;
+}
+
+.dl-horizontal dt{
+  float:left;
+  width:160px;
+  overflow:hidden;
+  clear:left;
+  text-align:right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dl-horizontal dd{
+  margin-left: 180px;
+}
